@@ -1,6 +1,3 @@
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '1111';
-FLUSH PRIVILEGES;
-
 DROP DATABASE IF EXISTS phonebook;
 CREATE DATABASE IF NOT EXISTS phonebook CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE phonebook;
@@ -22,3 +19,6 @@ CREATE TABLE IF NOT EXISTS contacts (
   image_path VARCHAR(255) NULL,
   CONSTRAINT fk_contacts_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '1111';
+FLUSH PRIVILEGES;
