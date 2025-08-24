@@ -1,0 +1,12 @@
+{
+  "name": "sample/phonebook",
+  "description": "Simple Phonebook (PHP7+, PDO, MVC, AJAX)",
+  "type": "project",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
+
