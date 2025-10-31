@@ -1,5 +1,7 @@
 # Phonebook app
 
+### An online service for organizing and managing contacts that allows you to store, update, view contact information, and delete it if necessary.
+
 To work with the project, you need to:
 
 1. Run the database.sql file
