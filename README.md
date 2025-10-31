@@ -1,3 +1,5 @@
+# Phonebook app
+
 To work with the project, you need to:
 
 1. Run the database.sql file
